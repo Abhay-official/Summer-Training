@@ -1,0 +1,123 @@
+body {
+  background-color: #4d4d4d;
+}
+
+.content-wrap {
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 45px;
+  color: white !important;
+  font-family: 'Lucida Handwriting', sans-serif;
+}
+
+#tags {
+  width: 350px;
+  height: 45px;
+  padding-left: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  outline: none;
+}
+#tags:focus{
+  border: 4px solid black;
+}
+
+.btn-default {
+  margin: 3px;
+  margin-top: 10px;
+  font-size: 25px;
+  border: none !important;
+  color: white;
+  
+}
+
+.btn-default:hover {
+  
+  color: grey;
+}
+
+button {
+  background-color: #000000 !important;
+  outline: none !important;
+  border-radius: 100% !important;
+  display: inline;
+}
+
+#randomResult {
+  display: inline-block;
+  width: 100px;
+  width: auto;
+  background-color: #FF0000 !important;
+  outline: none !important;
+}
+
+/* trying to make the anchors behave like divs */ 
+a {
+  display: block;
+  margin: 10px;
+  padding: 0 25px;
+  padding: 20px;
+  text-align: justify;
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+  border-left: 4px solid #8c8c8c;
+}
+a:active{
+  text-decoration: none !importent;
+  color: #000;
+   border-left: 4px solid #FF8C00;
+  text-outline: none;
+}
+
+.title {
+  margin-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 350px) {
+  h1 {
+    font-size: 35px;  
+  }
+  
+  #tags {
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 18px;
+  }
+  
+  .text {
+    font-size: 15px;
+  }
+}
+.jumbotron{
+  margin-top: 100px;
+  background-color: #bfbfbf !important;
+  border-width: 4px;
+  border-color: white;
+  padding-top: 10px;
+}
+input[type=text]{
+  color: #191919;
+  border-radius: 50px;
+  font-size: 15px;
+  } 

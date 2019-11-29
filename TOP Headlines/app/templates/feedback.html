@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block body %}
+  <h1 align="center">Feedback</h1>
+    <div class="container">
+      <div class="content-wrap text-center">
+		    <div class="jumbotron">
+			    <form>
+  				  <div class="form-inline">
+    				  <label for="FirstName">First Name</label>
+    				  <input type="text" class="form-control" placeholder="Enter First Name">
+  				  </div>
+  				  <div class="form-inline">
+    				  <label for="LastName">Last Name</label>
+    				  <input type="text" class="form-control" placeholder="Enter Last Name">
+  				  </div>
+  				  <div class="form-inline">
+    				  <label for="Email">E-Mail</label>
+    				  <input type="email" class="form-control" placeholder="Enter Email">
+  				  </div>
+  				  <div class="form-inline rows">
+  					  <label for="Feedback">Feedback</label>
+    				  <textarea class="form-control"></textarea>
+  				  </div>
+  				  <div>
+  					  <button type="submit" class="btn btn-info" onclick="Submit()">Submit</button>
+              <script type="text/javascript">
+                function Submit(){
+                document.write("Feedback submitted successfully!!!")
+              }
+              </script>
+            </div>    
+          </form>
+        </div>
+      </div>        	
+    </div>    	
+{% endblock %}

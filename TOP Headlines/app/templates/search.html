@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{% block content %}
+	<div class ="wrap text-center">
+		<ul>
+			{% for i in range(20) %}
+			<a style="font-size: 15px;" target="_blank" href="{{new+links[i]}}"><strong>
+			{{headline[i]}}</strong><br></a>
+			{% endfor %}
+		</ul>
+		
+	</div>
+
+
+{% endblock content%}
